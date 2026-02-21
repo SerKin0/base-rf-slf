@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Сборка документации Sphinx - ЭТО ВАЖНО!
+docs/build/
+docs/source/_build/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
