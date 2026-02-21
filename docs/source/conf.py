@@ -7,10 +7,12 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.0.1"
+version = "0.0.2"
 base_year = 2026
 actual_year = datetime.now().year
 
+
+html_title = "InfoBase - РФ СЛФ"
 
 
 
@@ -56,7 +58,8 @@ language = "ru"  # или "en"
 html_theme_options = {
     'navigation_with_keys': True,
     'sidebar_hide_name': False,
-    # Furo автоматически показывает полное оглавление
+    'globaltoc_collapse': True,
+    'globaltoc_includehidden': False,
 }
 
 # --- HTML ---
