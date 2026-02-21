@@ -7,12 +7,12 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.0.2"
+version = "0.0.3"
 base_year = 2026
 actual_year = datetime.now().year
 
 
-html_title = "InfoBase - РФ СЛФ"
+html_title = "БАЗА - РФ СЛФ"
 
 
 
@@ -57,10 +57,14 @@ language = "ru"  # или "en"
 
 html_theme_options = {
     'navigation_with_keys': True,
-    'sidebar_hide_name': False,
     'globaltoc_collapse': True,
     'globaltoc_includehidden': False,
 }
+
+# Для подключения CSS (стили иконок)
+html_css_files = [
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css',
+]
 
 # --- HTML ---
 html_static_path = ["_static"]

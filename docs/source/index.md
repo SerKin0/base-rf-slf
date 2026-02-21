@@ -4,15 +4,11 @@
 
 По всем вопросам можно обращаться к разработчику (Сергей Скороходов):
 
-- [Почта](mailto:sergey.skor007@gmail.com)
-- 💬 Telegram: [@SerKin0]
-- <i class="fa-brands fa-github"></i> [GitHub](https://github.com/SerKin0) 
-
----
+- [<i class="fa-solid fa-at"></i> Почта](mailto:infobase-serkin0@mail.ru)
+- [<i class="fa-brands fa-telegram"></i> Телеграм](https://t.me/SerKin0)
+- [<i class="fa-brands fa-github"></i> GitHub](https://github.com/SerKin0)
 
 ## 📚 Содержание
-
 ```{toctree}
-:numbered:
-
 semester_1/sem_1
+```
