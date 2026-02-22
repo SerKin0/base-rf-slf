@@ -5,4 +5,3 @@
 ## Предметы
 ```{toctree}
 :maxdepth: 1
-algebra_and_analytic_geometry/main
