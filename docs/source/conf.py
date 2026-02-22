@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.2"
+version = "0.1.3"
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -56,7 +56,6 @@ html_theme = 'sphinxawesome_theme'
 language = "ru"  # или "en"
 
 html_theme_options = {
-    'show_nav': True,
     'navigation_with_keys': True,
     'globaltoc_collapse': False,
     'globaltoc_includehidden': False,
