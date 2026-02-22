@@ -51,15 +51,19 @@ autodoc_default_options = {
 # --- Тема ---
 html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinxawesome_theme'
-
+# html_theme = 'sphinx_rtd_theme'
 # --- Язык ---
 language = "ru"  # или "en"
 
 html_theme_options = {
+    'show_nav': True,
     'navigation_with_keys': True,
-    'globaltoc_collapse': True,
+    'globaltoc_collapse': False,
     'globaltoc_includehidden': False,
+    'show_prev_next': True,
+    'main_nav_links': {},
 }
+
 
 # Для подключения CSS (стили иконок)
 html_css_files = [

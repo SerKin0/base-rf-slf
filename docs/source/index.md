@@ -9,7 +9,9 @@
 - [<i class="fa-brands fa-github"></i> GitHub](https://github.com/SerKin0)
 
 ## 📚 Содержание
-```{toctree}
-:maxdepth: 3
+:::{toctree} 
+
 semester_1/sem_1
-```
+semester_2/sem_2
+semester_3/sem_3
+semester_4/sem_4
