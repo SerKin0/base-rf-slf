@@ -10,5 +10,6 @@
 
 ## 📚 Содержание
 ```{toctree}
+:maxdepth: 3
 semester_1/sem_1
 ```
