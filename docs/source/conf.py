@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.1"
+version = "0.1.5"
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -51,15 +51,18 @@ autodoc_default_options = {
 # --- Тема ---
 html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinxawesome_theme'
-
+# html_theme = 'sphinx_rtd_theme'
 # --- Язык ---
 language = "ru"  # или "en"
 
 html_theme_options = {
     'navigation_with_keys': True,
-    'globaltoc_collapse': True,
+    'globaltoc_collapse': False,
     'globaltoc_includehidden': False,
+    'show_prev_next': True,
+    'main_nav_links': {},
 }
+
 
 # Для подключения CSS (стили иконок)
 html_css_files = [
