@@ -5,3 +5,5 @@
 ## Предметы
 ```{toctree}
 :maxdepth: 1
+
+physics/main
