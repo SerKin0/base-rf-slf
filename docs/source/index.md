@@ -12,6 +12,7 @@
 
 ## Содержание
 :::{toctree} 
+:maxdepth: 2
 
 semester_1/sem_1
 semester_2/sem_2
