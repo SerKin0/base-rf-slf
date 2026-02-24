@@ -5,3 +5,4 @@
 ## Предметы
 ```{toctree}
 :maxdepth: 1
+laboratory/main
