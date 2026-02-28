@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.7"
+version = "0.1.8"
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -18,7 +18,7 @@ html_title = "БАЗА - РФ СЛФ"
 
 # --- Путь к коду FABPY (важно!) ---
 sys.path.insert(0, os.path.abspath("../.."))  # от docs/source/ → корень проекта
-    
+
 
 if base_year == actual_year:
     copyright = f"{base_year}, {author}"
