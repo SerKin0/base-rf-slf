@@ -18,7 +18,7 @@ html_title = "БАЗА - РФ СЛФ"
 
 # --- Путь к коду FABPY (важно!) ---
 sys.path.insert(0, os.path.abspath("../.."))  # от docs/source/ → корень проекта
-
+    
 
 if base_year == actual_year:
     copyright = f"{base_year}, {author}"

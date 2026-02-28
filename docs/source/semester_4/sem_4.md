@@ -7,4 +7,4 @@
 :maxdepth: 1
 
 physics/main
-main
+theory_radio_signal/main
