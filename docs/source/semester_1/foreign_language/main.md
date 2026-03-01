@@ -10,5 +10,4 @@
 
 | №   | Автор | Название                                   | Год | Ссылки                                                      |
 | :-- | :---- | :----------------------------------------- | :-: | :---------------------------------------------------------- |
-| 1   | -     | New Cutting Edge - Intermediate Students B |  -  | [`[Диск]`](https://cloud.mail.ru/public/83LA/7xc4Zyy6W)</a> |
-
+| 1   | -     | New Cutting Edge - Intermediate Students B |  -  | [`[Диск]`](https://cloud.mail.ru/public/4BsS/D4jziodj1)</a> |
