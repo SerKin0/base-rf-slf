@@ -7,3 +7,4 @@
 :maxdepth: 1
 laboratory/main
 mathematical_analysis/main
+computer_science/main

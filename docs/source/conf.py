@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.12"
+version = "0.1.13"
 base_year = 2026
 actual_year = datetime.now().year
 
