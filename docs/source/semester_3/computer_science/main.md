@@ -26,8 +26,7 @@
 
 ![](https://github.com/SerKin0/SteganoLab/raw/main/images/image.png)
 
-| №   | Автор           | Название   | Год  | Ссылки                                           |
-| :-- | :-------------- | :--------- | :--: | :----------------------------------------------- |
-| 1   | С.А. Скороходов | SteganoLab | 2025 | [`[Git]`](https://github.com/SerKin0/SteganoLab) |
-
-
+| №   | Автор           | Название              | Год  | Ссылки                                                       |
+| :-- | :-------------- | :-------------------- | :--: | :----------------------------------------------------------- |
+| 1   | С.А. Скороходов | SteganoLab            | 2025 | [`[Git]`](https://github.com/SerKin0/SteganoLab)             |
+| 2   | Г.С. Степушов   | graphics-photo-csharp | 2025 | [`[Git]`](https://github.com/GordStep/graphics-photo-csharp) |

@@ -8,3 +8,4 @@
 
 physics/main
 theory_radio_signal/main
+fundamentals_of_management_activities/main
