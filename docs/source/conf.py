@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.13"
+version = "0.1.14"
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -33,6 +33,8 @@ myst_enable_extensions = [
     "amsmath",       # \begin{equation}
     "colon_fence",   # ::: блоки
 ]
+
+exclude_patterns = ['build', 'draft.md']
 
 extensions = [
     'sphinx.ext.autodoc',
