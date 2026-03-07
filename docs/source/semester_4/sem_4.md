@@ -12,3 +12,4 @@ fundamentals_of_management_activities/main
 algorithms_and_complexity_analysis/main
 laboratory/main
 mathematical_modeling_methods/main
+probability_theory/main
