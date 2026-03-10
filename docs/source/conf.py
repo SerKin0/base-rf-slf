@@ -7,17 +7,12 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.15"
+version = "0.1.16"
 base_year = 2026
 actual_year = datetime.now().year
 
 
 html_title = "БАЗА - РФ СЛФ"
-
-
-
-# --- Путь к коду FABPY (важно!) ---
-sys.path.insert(0, os.path.abspath("../.."))  # от docs/source/ → корень проекта
 
 
 if base_year == actual_year:
@@ -53,9 +48,7 @@ autodoc_default_options = {
 # --- Тема ---
 html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinxawesome_theme'
-# html_theme = 'sphinx_rtd_theme'
-# --- Язык ---
-language = "ru"  # или "en"
+language = "ru"
 
 html_theme_options = {
     'navigation_with_keys': True,
