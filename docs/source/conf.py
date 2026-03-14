@@ -7,7 +7,7 @@ from datetime import datetime
 author = "SerKin0"
 project = "InfoBase"
 release = "0.0.1"
-version = "0.1.16"
+version = "0.1.17"
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -35,7 +35,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
-    "myst_parser",               # Markdown вместо .rst
+    'myst_nb',
+    'sphinx.ext.mathjax',
 ]
 
 autodoc_default_options = {
@@ -57,6 +58,9 @@ html_theme_options = {
     'show_prev_next': True,
     'main_nav_links': {},
 }
+
+pygments_style = 'monokai'
+pygments_style_dark = 'monokai'
 
 
 # Для подключения CSS (стили иконок)
