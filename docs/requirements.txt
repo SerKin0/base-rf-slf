@@ -3,3 +3,5 @@ myst-parser
 sphinxawesome-theme
 nbsphinx
 myst-nb
+tabulate
+bibtexparser
