@@ -62,11 +62,14 @@ def create_table_bib_md(table: list[dict], template_cols: list = template) -> st
     for number, row in enumerate(table):
         for index, col in enumerate(template_cols):
             temp = ""
-            if col in ('url'):
-                urls = row.get(col).split(',')
+            value = row.get(col)
+            if value == '':
+                temp = '-'
+            elif col in ('url'):
+                urls = value.split(',')
                 temp = get_links(urls)
             elif col in ('title'):
-                temp = row.get(col) + f" [{row.get('number', '')}]"
+                temp = value + f" [{row.get('number', '')}]"
             else:
                 temp = row.get(col, "...")
             data[number][index+1] = temp
@@ -80,16 +83,27 @@ def create_page(title: str, value: str, path: str) -> None:
         file.write(content)
         
         
-def create_page_with_bib_table(title: str, path_bib: str, path_export: str) -> None:
+def create_page_with_bib_tables(path_bib: str, path_export: str, title_file: str = "Библиотека") -> None:
+    data = read_bib_file(path_bib)
+    
+    content = {}
+    for value in data:
+        title = value.get('note', 'Разное')
+        content[title] = content.get(title, []) + [value]
+    
+    data = ""
+    for title in content.keys():
+        data += f"## {title}\n\n{create_table_bib_md(content.get(title))}"
+    
     create_page(
-        title=title,
-        value=create_table_bib_md(read_bib_file(path_bib)),
+        title=title_file,
+        value=data,
         path=path_export
     )
+    
 
 
-create_page_with_bib_table(
-    "Методички по физике",
+create_page_with_bib_tables(
     file_path,
     path_export
 )
