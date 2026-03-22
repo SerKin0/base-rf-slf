@@ -98,9 +98,9 @@ def create_page_with_bib_tables(
     if "" in content.keys():
         del content[""]
 
-    logger.info(
-        f"Подготавливаются разделы:{', '.join([f"({len(content[key])}) '{key}'" for key in content.keys()])}"
-    )
+    string_list_content = ', '.join([f"({len(content[key])} шт) '{key}'" for key in content.keys()])
+    log_message = f"Подготавливаются разделы: {string_list_content}"
+    logger.info(log_message)
 
     data = ""
     for title in content.keys():
