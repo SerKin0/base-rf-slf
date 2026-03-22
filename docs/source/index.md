@@ -11,7 +11,8 @@
 - [<i class="fa-brands fa-github"></i> GitHub](https://github.com/SerKin0)
 
 ## Содержание
-:::{toctree} 
+
+:::{toctree}
 :maxdepth: 2
 
 semester_1/sem_1
