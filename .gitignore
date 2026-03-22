@@ -31,3 +31,4 @@ Thumbs.db
 
 .obsidian/
 temp/
+.ruff_cache/
