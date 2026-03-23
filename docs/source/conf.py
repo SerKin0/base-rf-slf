@@ -4,10 +4,13 @@ import sys
 from datetime import datetime
 
 # ---------------------------- Основные настройки ---------------------------- #
+release = "0.0.1"
+version = "0.1.29"
+version_site = version
+
 author = "SerKin0"
 project = "InfoBase"
-release = "0.0.1"
-version = "0.1.28"
+
 base_year = 2026
 actual_year = datetime.now().year
 
@@ -16,9 +19,9 @@ html_title = "БАЗА - РФ СЛФ"
 
 
 if base_year == actual_year:
-    copyright = f"{base_year}, {author}"
+    copyright = f"{base_year}, {author} (v{version})"
 else:
-    copyright = f"{base_year}-{actual_year}, {author}"
+    copyright = f"{base_year}-{actual_year}, {author} (v{version})"
 
 
 
