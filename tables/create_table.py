@@ -87,7 +87,7 @@ def create_page(title: str, value: str, path: str) -> None:
 
 
 def create_page_with_bib_tables(
-    path_bib: str, path_export: str, title_file: str = "Библиотека"
+    path_bib: str, path_export: str, title_file: str = "Библиотека", message: str = ""
 ) -> None:
     data = read_bib_file(path_bib)
     content = {}
@@ -102,7 +102,7 @@ def create_page_with_bib_tables(
     log_message = f"Подготавливаются разделы: {string_list_content}"
     logger.info(log_message)
 
-    data = ""
+    data = f"{message}\n\n"
     for title in content.keys():
         data += f"\n## {title}\n\n{create_table_bib_md(content.get(title))}"
 
@@ -112,10 +112,14 @@ def create_page_with_bib_tables(
 if __name__ == "__main__":
     logger = logging.getLogger(__name__)
     logging.basicConfig(level=logging.INFO)
+    
+    message = r"""На этой странице вы найдете разнообразные учебники, методические пособия и другие полезные материалы, которые могут вам пригодиться в работе.
+
+Если вы используете $\LaTeX$ и вам нужно добавить этот ресурс в библиографию, то вы можете найти файл с содержимым страницы в формате `.bib` на GitHub нашего сайта по следующей [ссылке](https://github.com/SerKin0/base-rf-slf/blob/main/tables/metodichkas/base.bib)."""
 
     file_path = "tables/metodichkas/base.bib"
     path_export = "docs/source/bibliography/metodichkas/main.md"
 
     logger.info(f"Начало обработки файла с библиографией: {file_path}")
 
-    create_page_with_bib_tables(file_path, path_export)
+    create_page_with_bib_tables(file_path, path_export, message=message)
