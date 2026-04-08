@@ -16,3 +16,4 @@
 | 5   | А.В. Шиндин     | Варианты и задание. "Лабораторная работа №5"  | 2026 | [`[Диск]`](https://cloud.mail.ru/public/13V4/2fnFUr447)                                                       |
 | 6   | C.А. Скороходов | Решение "Лабораторной работы №2" (18 вариант) | 2026 | [`[Git]`](https://github.com/SerKin0/IBTS-math-modeling/tree/sem4-prac-lec1.5/Semester_4/Practice/Lesson%205) |
 | 7   | C.А. Скороходов | Решение "Лабораторной работы №1" (18 вариант) | 2026 | [`[Git]`](https://github.com/SerKin0/IBTS-math-modeling/tree/sem4-prac-lec1.5/Semester_4/Practice/Lesson%202) |
+| 8   | C.А. Скороходов | Решение "Лабораторной работы №4" (18 вариант) | 2026 | [`[Git]`](https://github.com/SerKin0/IBTS-math-modeling/tree/sem4-prac-lec1.5/Semester_4/Practice/Lesson%208) |

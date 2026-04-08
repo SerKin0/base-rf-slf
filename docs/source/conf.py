@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ---------------------------- Основные настройки ---------------------------- #
 release = "0.0.1"
-version = "0.1.32"
+version = "0.1.33"
 version_site = version
 
 author = "SerKin0"
