@@ -10,6 +10,8 @@
 - [<i class="fa-brands fa-telegram"></i> Телеграм](https://t.me/SerKin0)
 - [<i class="fa-brands fa-github"></i> GitHub](https://github.com/SerKin0)
 
+Облако с файлами: [`Диск`](https://cloud.mail.ru/public/aMoL/gNubhXygz)
+
 ## Содержание
 
 :::{toctree}
