@@ -5,3 +5,4 @@ nbsphinx
 myst-nb
 tabulate
 bibtexparser
+sphinx_new_tab_link
