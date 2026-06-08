@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ---------------------------- Основные настройки ---------------------------- #
 release = "0.0.1"
-version = "0.1.37"
+version = "0.1.38"
 version_site = version
 
 author = "SerKin0"
@@ -40,6 +40,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'myst_nb',
     'sphinx.ext.mathjax',
+    'sphinx_new_tab_link',
 ]
 
 autodoc_default_options = {
