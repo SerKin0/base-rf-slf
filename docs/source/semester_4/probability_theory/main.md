@@ -7,11 +7,12 @@
 | **Дисциплина**    | Теория вероятностей и математическая статистика |
 ## Материалы / Ресурсы
 
-| №   | Автор       | Название                    | Год  | Ссылки                                                                                                                      |
-| :-- | :---------- | :-------------------------- | :--: | :-------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Павлов И.С. | Упражнения ТВ - занятия 1-8 | 2026 | [`[Диск]`](https://cloud.mail.ru/public/i3uE/GUpXoYZhR)                                                                     |
-| 2   | Павлов И.С. | Список вопросов к экзамену  | 2026 | [`[Диск.docx]`](https://cloud.mail.ru/public/gvCi/jrafRFUB9)<br>[`[Диск.pdf]`](https://cloud.mail.ru/public/z3Qu/o2F1aeaC2) |
-| 3   | Павлов И.С. | Таблица МХ и DX             | 2026 | [`[Диск.docx]`](https://cloud.mail.ru/public/E8op/N3txMHYco)<br>[`[Диск.pdf]`](https://cloud.mail.ru/public/S5MQ/Xq9hw6sJi) |
+| №   | Автор       | Название                          | Год  | Ссылки                                                                                                                                                                                                                               |
+| :-- | :---------- | :-------------------------------- | :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Павлов И.С. | Упражнения ТВ - занятия 1-8       | 2026 | [`[Диск]`](https://cloud.mail.ru/public/i3uE/GUpXoYZhR)                                                                                                                                                                              |
+| 2   | Павлов И.С. | Список вопросов к экзамену        | 2026 | [`[Диск.docx]`](https://cloud.mail.ru/public/gvCi/jrafRFUB9)<br>[`[Диск.pdf]`](https://cloud.mail.ru/public/z3Qu/o2F1aeaC2)                                                                                                          |
+| 3   | Павлов И.С. | Таблица МХ и DX                   | 2026 | [`[Диск.docx]`](https://cloud.mail.ru/public/E8op/N3txMHYco)<br>[`[Диск.pdf]`](https://cloud.mail.ru/public/S5MQ/Xq9hw6sJi)                                                                                                          |
+| 4   | SerKin0     | Ответы на экзамен (ответы/печать) | 2026 | [`[Git.pdf]`](https://github.com/SerKin0/IBTC-probability_theory-2k4s-latex-answers/blob/master/answers.pdf)<br>[`[Git.pdf]`](https://github.com/SerKin0/IBTC-probability_theory-2k4s-latex-answers/blob/master/collage_answers.pdf) |
 
 ## Литература / Учебники
 
