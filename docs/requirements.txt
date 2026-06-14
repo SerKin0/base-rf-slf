@@ -1,6 +1,6 @@
 sphinx>=7.0,<8.0
 myst-parser>=3.0
-sphinxawesome_theme>=5.0
+sphinxawesome-theme>=5.0
 nbsphinx>=0.9
 myst-nb>=1.0
 tabulate>=0.9
