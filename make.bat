@@ -2,10 +2,6 @@
 
 pushd %~dp0
 
-
-python tables/create_table.py
-
-
 REM Command file for Sphinx documentation
 
 if "%SPHINXBUILD%" == "" (
