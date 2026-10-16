@@ -6,6 +6,7 @@
 ```{toctree}
 :maxdepth: 1
 
+laboratory/main
 electrodynamics/main
 fundamentals_of_oscillation_theory/main
 atomic_physics/main
