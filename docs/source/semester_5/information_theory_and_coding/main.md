@@ -13,6 +13,7 @@
 | 2   | Елохин Антон Вадимович | Программа – минимум курса «Статистическая радиофизика» (Коллоквиум) | 2026 | [`[Диск.pdf]`](https://cloud.mail.ru/public/aRjo/9W8TbHYp8)<br>[`[Диск.doc]`](https://cloud.mail.ru/public/ekkt/Em33Mxkfv)                                                                                                                                      |
 | 3   | Скороходов С.А.        | Ответы на вопросы коллоквиума **плана минимум**                     | 2026 | [`[git.pdf]`](https://github.com/SerKin0/IBTC-theory_information_and_coding-3k5s-latex-answers/blob/main/answers_min.pdf)<br>[`[git*.pdf]`](https://github.com/SerKin0/IBTC-theory_information_and_coding-3k5s-latex-answers/blob/main/collage_answers_min.pdf) |
 | 4   | Скороходов С.А.        | Ответы на вопросы коллоквиума **плана максимум**                    | 2026 | [`[git.pdf]`](https://github.com/SerKin0/IBTC-theory_information_and_coding-3k5s-latex-answers/blob/main/answers_max.pdf)<br>[`[git*.pdf]`](https://github.com/SerKin0/IBTC-theory_information_and_coding-3k5s-latex-answers/blob/main/collage_answers_max.pdf) |
+| 5   | Скороходов С.А.        | СБОРНИК задач по статистической радиофизике (Редакция SerKin0)      | 2026 | [`[git.pdf]`](https://github.com/SerKin0/tik-problembook-modern/blob/main/main.pdf)                                                                                                                                                                             |
 
 ## Литература / Учебники
 
